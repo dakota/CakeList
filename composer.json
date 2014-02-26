@@ -1,0 +1,31 @@
+{
+    "name": "octoplus/octo-cake",
+    "description": "Octoplus application framework",
+    "authors": [
+        {
+            "name": "Walther Lalk",
+            "email": "walther@octoplus.co.za"
+        }
+    ],
+    "require": {
+        "pear-cakephp/cakephp": "~2.4.0",
+        "cakephp/debug_kit": "~2.2",
+        "cakedc/migrations": "~2.2",
+        "cakedc/search": "~2.2",
+        "ceeram/clear_cache": "dev-master",
+        "slywalker/boost_cake": "*",
+        "messaged/php-mime-mail-parser": "dev-master",
+        "kamisama/debug-kit-ex": "dev-master",
+        "kamisama/cake-resque": "dev-master",
+        "fresque/fresque": "~1.2"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    },    
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.cakephp.org"
+        }
+    ]    
+}

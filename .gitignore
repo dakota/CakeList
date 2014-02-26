@@ -1,0 +1,16 @@
+tmp/**/*
+~*
+*~
+*.bak
+*.orig
+webroot/files/*
+*.swp
+/.idea/
+Plugin/*
+Vendor/*
+build/coverage
+build/logs
+build/pdepend
+build/phpdoc
+*.sublime*
+webroot/components/*
