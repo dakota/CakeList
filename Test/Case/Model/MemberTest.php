@@ -106,7 +106,7 @@ class MemberTest extends CakeTestCase {
 
 		$this->Member->save($member);
 
-		//Should still only be one member
+		//Should still only be two members
 		$count = $this->Member->find('count');
 		$this->assertEqual($count, 2);
 

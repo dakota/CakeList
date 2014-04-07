@@ -99,7 +99,7 @@ MESSAGE;
 	}
 
 	public function testApproveMessage() {
-		$mock = $this->getMock('MockCakeResque', array('enqueue'));
+		$mock = $this->getMock('MockCakeResque', ['enqueue']);
 		$mock->expects($this->once())
 			->method('enqueue')
 			->with('mail', 'MailShell')
